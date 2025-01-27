@@ -135,6 +135,6 @@ Contributions are welcome! To contribute:
 
 ## Contact
 For questions or support, please reach out via:
-- **Email**: seenapv@example.com
+- **Email**: seenapv@gmail.com
 - **GitHub Issues**: [GitHub Issues Page](https://github.com/seenapv-here/url-shortcuts-extension/issues)
 
