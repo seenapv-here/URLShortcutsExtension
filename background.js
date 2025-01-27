@@ -15,4 +15,3 @@ chrome.omnibox.onInputEntered.addListener((text) => {
       }
     });
   });
-  
