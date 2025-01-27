@@ -1,0 +1,37 @@
+{
+    "manifest_version": 3,
+    "name": "URL Shortcuts",
+    "version": "1.0",
+    "description": "A Chrome extension to create custom URL shortcuts for quick navigation.",
+    "permissions": ["storage", "tabs"],
+    "host_permissions": ["<all_urls>"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icons/icon16.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+      }
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "omnibox": {
+        "keyword": "shortcut" 
+    },
+    "commands": {
+        "open-google": {
+          "suggested_key": {
+            "default": "Ctrl+Shift+G"
+          },
+          "description": "Open Google"
+        },
+        "open-youtube": {
+          "suggested_key": {
+            "default": "Ctrl+Shift+Y"
+          },
+          "description": "Open YouTube with a search query"
+        }
+      }
+  }
+  
